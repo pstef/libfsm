@@ -21,15 +21,15 @@ You get:
 
 Clone with submodules (contains required .mk files):
 
- ; git clone --recursive https://github.com/katef/libfsm.git
+    ; git clone --recursive https://github.com/katef/libfsm.git
 
 To build and install:
 
- ; pmake -r install
+    ; pmake -r install
 
 You can override a few things:
 
- ; CC=clang PREFIX=$HOME pmake -r install
+    ; CC=clang PREFIX=$HOME pmake -r install
 
 Building depends on:
 
